@@ -1,0 +1,712 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+    font-family: brownlight;
+    src: url(../fonts/Brown-Light.ttf)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: brownlight;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+
+
+/* start header section css */
+.header{
+   width: 100%;
+     background: url('../images/Vectoe.png') center top no-repeat;
+	 background-size: cover;
+}
+.header .main-header{
+	width: 100%;
+   background: url('../images/Vectoe.png') center top no-repeat;
+	background-size: cover;
+}
+
+.header .top-header{
+	padding: 20px 0px;
+	margin: 0px 0px;
+
+}
+.header .top-header .bg-light{
+	background: transparent !important;
+	
+}
+.header .nav-item {
+    margin: 16px;
+    
+}
+.header .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #32325d;
+    text-transform: capitalize;
+    
+}
+.header .nav-item .btn-info {
+    padding: 5px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: #845cff;
+    transition: 1s;
+}
+.header .nav-item .btn-info:hover, .header .nav-item .btn-info:focus{
+    color: #845cff;
+    background: transparent;
+    border: 1px solid #f0effe;
+}
+
+
+
+.header .main-header .header-banner .title {
+ width: 100%;
+ padding: 120px 0px 280px;
+}
+
+.header .main-header .header-banner .title h2{
+    font-size: 41px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #32325d;
+
+}
+.header .main-header .header-banner .title h5{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #525f7f;
+    margin: 30px 0px;
+}
+    
+.header .main-header .header-banner .title p{
+
+}
+
+.header .main-header .header-banner .title .btn-primary{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 10px;
+    padding: 13px 15px;
+    background: #845cff;
+    transition: 1s;
+}
+
+.header .main-header .header-banner .title .btn-primary:hover,
+.header .main-header .header-banner .title .btn-primary:focus{
+	background: #fff;
+	border: 1px solid #845cff;
+	color: #845cff;
+}
+.header .main-header .header-banner .title span{
+     font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #32325d;
+}
+
+.header .main-header .header-banner .title .fa-long-arrow-right{
+      font-size: 14px;
+      color: #32325d;
+      margin-left: 2px;
+}
+
+
+/* start improve section css */
+
+
+.improve{
+	 width: 100%;
+}
+.improve .inner-improve .title-top h6 {
+    margin-bottom: 33px;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 300;
+    color: #212240;
+    text-transform: capitalize;
+}
+.improve .inner-improve .title-top p {
+    margin-bottom: 33px;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 400;
+    font-weight: 400;
+    color: #212240;
+    text-transform: capitalize;
+}
+.improve .inner-improve .title-second {
+	    padding: 30px 30px 38px;
+	   box-shadow: 1px 4px 10px #e0dafc;
+	   margin-top: -185px; 
+}
+
+.improve .inner-improve .title-second h2{
+    font-size: 30px;
+    line-height: 2px;
+    font-weight: 300;
+    color: #212240;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.improve .inner-improve .title-second img{
+ margin-bottom: 60px;
+  margin-left: 23px;
+   
+}
+
+.improve .inner-improve .title-second p{
+   font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212240;
+    margin: 30px 0px;
+}
+
+
+
+.improve .inner-improve .title-third  {
+	width: 100%;
+	margin: 60px 0px;
+	box-shadow: 1px 4px 10px #e0dafc;
+	padding: 30px 30px 38px;
+}
+
+.improve .inner-improve .title-third h2{
+    font-size: 30px;
+    line-height: 2px;
+    font-weight: 300;
+    color: #212240;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.improve .inner-improve .title-third  img{
+ margin-bottom: 60px;
+ margin-left: 23px;
+   
+}
+
+.improve .inner-improve .title-third  p{
+   font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212240;
+    margin: 30px 0px;
+}
+
+
+
+
+.improve .inner-improve .title-fourth{
+	width: 100%;
+	    margin: 60px 0px;
+	    box-shadow: 1px 4px 10px #e0dafc;
+	    padding: 30px 30px 38px;
+}
+
+.improve .inner-improve .title-fourth h2{
+    font-size: 30px;
+    line-height: 2px;
+    font-weight: 300;
+    color: #212240;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.improve .inner-improve .title-fourth img{
+ margin-bottom: 60px;
+ margin-left: 23px;
+   
+}
+
+.improve .inner-improve .title-fourth  p{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212240;
+    margin: 30px 0px;
+}
+
+
+.services {
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.all-services {
+    width: 100%;
+    background: url(../images/BG.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.all-services .inner-services {
+    width: 100%;
+    padding: 55px 0;
+}
+
+.all-services .inner-services img {
+    width: 50px;
+    margin: 20px;
+}
+
+.all-services .inner-services h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.all-services .inner-services p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    opacity: .9;
+}
+
+.work {
+    width: 100%;
+    padding: 120px 0;
+}
+
+.work .title {
+    width: 100%;
+    opacity: .8;
+}
+
+.work .title h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 25px;
+    color: #32325d;
+}
+
+.work .title p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #32325d;
+}
+
+.work .title2 {
+    width: 100%;
+    opacity: .8;
+    color: #32325d;
+    margin-bottom: 20px;
+}
+
+.work p .btn-primary {
+    background: #845cff;
+    padding: 5px 17px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.work p .btn-primary:hover,
+.work p .btn-primary:focus {
+    color: #845cff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.work p span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #32325d;
+    margin-left: 30px;
+}
+
+.work img {
+    width: 90%;
+}
+
+.work2 {
+    width: 100%;
+    padding: 0 0 120px 0;
+}
+
+.work2 .title {
+    width: 100%;
+    opacity: .8;
+}
+
+.work2 .title h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 25px;
+    color: #32325d;
+}
+
+.work2 .title p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #32325d;
+}
+
+.work2 .title2 {
+    width: 100%;
+    opacity: .8;
+    color: #32325d;
+    margin-bottom: 20px;
+}
+
+.work2 p .btn-primary {
+    background: #845cff;
+    padding: 5px 17px;
+    text-transform: uppercase;
+}
+
+.work2 p .btn-primary:hover,
+.work2 p .btn-primary:focus {
+    color: #845cff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.work2 p span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #32325d;
+    margin-left: 30px;
+}
+
+.work2 img {
+    width: 90%;
+}
+
+.finance {
+    width: 100%;
+    padding: 40px 0 0 0;
+    margin-bottom: -60px;
+}
+
+.finance .title {
+    width: 100%;
+}
+
+.finance .title h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #32325d;
+    opacity: .8;
+}
+
+.finance .title p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #32325d;
+    margin-top: 20px;
+}
+
+.finance .title h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32325d;
+    margin-top: 110px;
+    opacity: .8;
+}
+
+.finance .title ul {
+    margin-top: 30px;
+}
+
+.finance .title li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #32325d;
+    opacity: .9;
+}
+
+.finance .title img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.finance .bg2 {
+    width: 110%;
+    margin-top: -20px;
+}
+
+.finance2 {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+
+.finance2 .title {
+    width: 100%;
+}
+
+.finance2 .title h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32325d;
+    margin-top: 110px;
+    opacity: .8;
+}
+
+.finance2 .title ul {
+    margin-top: 30px;
+}
+
+.finance2 .title li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #32325d;
+    opacity: .9;
+}
+
+.finance2 {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+
+.finance2 .title2 {
+    width: 100%;
+}
+
+.finance2 .title2 h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #32325d;
+    margin-top: 110px;
+    opacity: .8;
+}
+
+.finance2 .title2 ul {
+    margin-top: 30px;
+}
+
+.finance2 .title2 li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #32325d;
+    opacity: .9;
+}
+
+.footer-section {
+    width: 100%;
+    padding: 40px 0;
+    background: #fafaff;
+}
+
+.footer-section img {
+    margin: 20px 0 25px 5px;
+}
+
+.footer-section h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: -5px;
+    color: #32325d;
+    opacity: .9;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #32325d;
+    margin-top: 20px;
+    opacity: .9;
+}
+
+.footer-section .form {
+    position: relative;
+}
+
+.footer-section .form-control {
+    padding: 22px 150px 22px 15px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px #eee;
+}
+
+.footer-section .btn-primary {
+    padding: 9px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 230px;
+    margin-top: 65px;
+    background: #fff;
+    color: #32325d;
+    opacity: .7;
+    border: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.footer-section .btn-primary img {
+    width: 12px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.main-footer {
+    width: 100%;
+    padding: 80px 0;
+    background: #32325d
+}
+
+.main-footer p {
+    opacity: .5;
+    color: #fff;
+}
+
+.main-footer .mail {
+    opacity: 1;
+    color: #fff;
+}
+
+.main-footer .link ul li a i {
+    font-size: 20px;
+    color: #fff;
+    opacity: .2;
+}
+
+.main-footer .link ul li a i:hover,
+.main-footer .link ul li a i:focus {
+    color: blue;
+    background: transparent;
+    opacity: 1;
+}
+
+.main-footer ul {
+    margin-left: -20px;
+}
+
+.main-footer ul li {
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.main-footer .list2 ul {
+    margin-top: -15px;
+}
+
+.main-footer .list2 ul li {
+    display: block;
+    margin-top: 15px;
+}
+
+.main-footer .list2 ul li a {
+    color: #fff;
+    margin-top: 15px;
+    opacity: .5;
+}
+
+.main-footer .list2 ul li a:hover,
+.main-footer .list2 ul li a:focus {
+    color: #fff;
+    opacity: 2;
+}
+
+.main-footer .list3 ul {
+    margin-top: -15px;
+}
+
+.main-footer .list3 ul li {
+    display: block;
+    margin-top: 15px;
+}
+
+.main-footer .list3 ul li a {
+    color: #fff;
+    margin-top: 15px;
+    opacity: .5;
+}
+
+.main-footer .list3 ul li a:hover,
+.main-footer .list3 ul li a:focus {
+    color: #fff;
+    opacity: 1.3;
+}
+
+.main-footer .list4 ul {
+    margin-top: -15px;
+}
+
+.main-footer .list4 ul li {
+    display: block;
+    margin-top: 15px;
+}
+
+.main-footer .list4 ul li a {
+    color: #fff;
+    margin-top: 15px;
+    opacity: .5;
+}
+
+.main-footer .list4 ul li a:hover,
+.main-footer .list4 ul li a:focus {
+    color: #fff;
+    opacity: 1;
+}
+
+.main-footer .copyright {
+    width: 100%;
+    padding-top: 80px;
+    margin-bottom: -35px;
+}
+
+.main-footer .copyright p {
+    opacity: .5;
+}
+
+.main-footer .copyright ul {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.main-footer .copyright ul li a {
+    color: #fff;
+    opacity: .5;
+}
+
+.main-footer .copyright ul li a:hover,
+.main-footer .copyright ul li a:focus {
+    color: #fff;
+    opacity: 1;
+}
+
+.main-footer .link ul li a i:hover {
+    color: #fff;
+}
